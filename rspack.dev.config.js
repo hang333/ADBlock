@@ -11,9 +11,6 @@ export default defineConfig({
 	output: {
 		chunkFormat: false,
 		filename: "[name].bundle.js",
-		library: {
-			type: "module",
-		},
 	},
 	optimization: {
 		minimize: true,
