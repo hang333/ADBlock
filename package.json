@@ -56,7 +56,7 @@
 	},
 	"dependencies": {
 		"@nsnanocat/grpc": "^1.0.15",
-		"@nsnanocat/util": "^2.5.14",
+		"@nsnanocat/util": "^2.5.16",
 		"@protobuf-ts/runtime": "^2.11.1",
 		"@protobuf-ts/runtime-rpc": "^2.11.1",
 		"crypto-js": "^4.2.0",
