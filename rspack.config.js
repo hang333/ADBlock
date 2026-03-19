@@ -5,8 +5,8 @@ import pkg from "./package.json" with { type: "json" };
 
 export default defineConfig({
 	entry: {
-		"request": "./src/request.js",
-		"response": "./src/response.js",
+		request: "./src/request.js",
+		response: "./src/response.js",
 	},
 	output: {
 		chunkFormat: false,
@@ -17,7 +17,7 @@ export default defineConfig({
 			//additionalAliases: ['console'],
 		}),
 		new rspack.BannerPlugin({
-			banner: `console.log('Date: ${new Date().toLocaleString('zh-CN', {timeZone: 'PRC'})}');`,
+			banner: `console.log('Date: ${new Date().toLocaleString("zh-CN", { timeZone: "PRC" })}');`,
 			raw: true,
 		}),
 		new rspack.BannerPlugin({
@@ -38,4 +38,5 @@ export default defineConfig({
 	],
 	devtool: false,
 	performance: false,
+	externals: ["node-fetch", "fetch-cookie"],
 });
