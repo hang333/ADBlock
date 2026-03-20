@@ -55,8 +55,8 @@
 		"typescript": "^5.9.3"
 	},
 	"dependencies": {
-		"@nsnanocat/grpc": "^1.0.15",
-		"@nsnanocat/util": "^2.5.16",
+		"@nsnanocat/grpc": "^1.0.17",
+		"@nsnanocat/util": "^2.5.17",
 		"@protobuf-ts/runtime": "^2.11.1",
 		"@protobuf-ts/runtime-rpc": "^2.11.1",
 		"crypto-js": "^4.2.0",
